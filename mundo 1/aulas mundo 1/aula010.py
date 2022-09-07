@@ -1,4 +1,4 @@
-'''tempo = int(input('Quantos anos tem o seu carro?: '))
+tempo = int(input('Quantos anos tem o seu carro?: '))
 
 if tempo <=3:
     print('Carro novo')
@@ -15,7 +15,7 @@ if nome == 'Ayron':
     print('Que nome lindo você tem!')
 else:
     print('Seu nome é tão normal!')
-    print('Bom dia {}'.format(nome))'''
+    print('Bom dia {}'.format(nome))
 
 n1 = float(input('Digite a primeira nota: '))
 n2 = float(input('Digite a segundo nota: '))

@@ -14,3 +14,4 @@ elif opcao == 3:
     print('O número {} em hexadecimal é: {}'.format(numero, hex(numero)))
 else:
     print('Opção inválida, tente novamente.')
+    

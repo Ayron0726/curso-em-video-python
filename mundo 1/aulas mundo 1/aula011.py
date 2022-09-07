@@ -1,4 +1,4 @@
-'''#Entre o colchete e a letra (m) seguir conforme abaixo
+#Entre o colchete e a letra (m) seguir conforme abaixo
 #Primeiro código do estilo "style"(Código do comportamento, negrito, sublinhado) seguido de ";"
 #Segundo código do texto "text" (informa a cor do texto) seguido de ";"
 #Terceiro código do fundo "background" (informa a cor do fundo)
@@ -17,7 +17,7 @@
 \033[1;35;43m #Letra magenta e fundo amarelo
 \033[30;42m #letra branca e fundo verde
 \033[m #Desfaz a configuraçao deixando padrão
-\033[7;30m #Inversão, pega a cor preto e coloca na letra, e cor branco no fundo'''
+\033[7;30m #Inversão, pega a cor preto e coloca na letra, e cor branco no fundo
 
 print('\033[4;30;45mOlá mundo!\033[m')#Coloca o \033[m no final para a coloração ir só até o funal da frase
 a = 3
