@@ -13,7 +13,7 @@ print('-+-'*20)
 
 jogador = int(input('Em que número eu pensei? '))
 print('Processando....')
-time.sleep(2)#Cria um atraso para seguir o resto do bloco, tem que importar (time)
+sleep(2)#Cria um atraso para seguir o resto do bloco, tem que importar (time)
 
 if jogador == computador:
     print('PARABÉNS! Você conseguiu me vencer!')
