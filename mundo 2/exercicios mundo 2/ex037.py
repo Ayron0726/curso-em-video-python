@@ -7,11 +7,11 @@ numero = int(input('Digite um número inteiro: '))
 opcao = int(input('Escolha as opções abaixo:\n1- Para converter em binário\n2- Para converter em octal\n3- Para converter em hexadecimal\nOpção selecionada: '))
 
 if opcao == 1:
-    print('O número {} em binário é: {}'.format(numero, bin(numero)))
+    print('O número {} em binário é: {}'.format(numero, bin(numero)[2:]))
 elif opcao == 2:
-    print('O número {} em octal é: {}'.format(numero, oct(numero)))
+    print('O número {} em octal é: {}'.format(numero, oct(numero)[2:]))
 elif opcao == 3:
-    print('O número {} em hexadecimal é: {}'.format(numero, hex(numero)))
+    print('O número {} em hexadecimal é: {}'.format(numero, hex(numero)[2:]))
 else:
     print('Opção inválida, tente novamente.')
     

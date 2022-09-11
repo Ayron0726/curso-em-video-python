@@ -5,7 +5,9 @@
 #em até 2x no cartão: preço normal
 #3x ou mais no cartão: 20% de juros
 
-preco = float(input('Digite o valor do produto: R$'))
+print('{:^40}'.format('Lojas não sei')) #Centraliza e preenche os espaços com
+
+preco = float(input('Digite o preço das compras: R$'))
 opcao = int(input('Escolha a opção de pagamento\n1- À vista dinheiro/cheque(10% de desconto)\n2- À vista no cartão(5% de desconto)\n3- Em até 2x no cartão(preço normal)\n4- 3x ou mais no cartão(20% de juros)\nOpção selecionada: '))
 
 if opcao == 1:

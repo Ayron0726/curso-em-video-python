@@ -19,3 +19,6 @@ elif categoria == 20:
     print('O atleta tem {} anos e a sua categoria é: SÊNIOR'.format(categoria))
 elif categoria > 20:
     print('O atleta tem {} anos e a sua categoria é: MASTER'.format(categoria))
+else:
+    print('Opção inválida')
+    
