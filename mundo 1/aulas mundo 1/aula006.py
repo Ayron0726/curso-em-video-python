@@ -1,3 +1,5 @@
+##Aula 6
+
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digitr outro número: '))
 soma = (n1 + n2)
